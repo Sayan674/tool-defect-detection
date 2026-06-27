@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Dataset (not committed — see DATASET.md for how to recreate it)
+data/raw_images/
+data/tool_dataset.csv
+data/final_dataset.csv
+
+# Trained model (large binary — regenerate with: python main.py --step train)
+models/tool_model.pkl
+
+# Outputs (plots and logs are generated, not tracked)
+outputs/
+!outputs/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
